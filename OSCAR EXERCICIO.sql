@@ -80,7 +80,8 @@ RESPOSTA: EM 1928
     
 -- 14 - Pensando no ano em que você nasceu: Qual foi o Oscar de melhor filme, Melhor Atriz e Melhor Diretor?
 SELECT year_ceremony, category, film, name from movies where category in ('BEST PICTURE','ACTRESS','DIRECTING') and year_ceremony ='1999' and winner like '1';
-RESPOSTA:
+RESPOSTA: 2 indicações
+    
 1999	DIRECTING	Saving Private Ryan	Steven Spielberg
 1999	BEST PICTURE	Shakespeare in Love	David Parfitt, Donna Gigliotti, Harvey Weinstein, Edward Zwick and Marc Norman, Producers
 
